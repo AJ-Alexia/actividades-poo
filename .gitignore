@@ -1,30 +1,14 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
+# Compilados
+*.class
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
+# Carpetas y archivos de IDE
+.idea/
 .vscode/
-
-### Mac OS ###
-.DS_Store
+out/
+bin/
+target/
+nbproject/
+.classpath
+.project
+.settings/
+*.iml
